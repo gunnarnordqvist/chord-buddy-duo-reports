@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-09-17T09:49:33.842Z",
+  "commit": "b61de1d1574056192ae7b167ec8a7b703dd4fd98",
+  "branch": "main",
+  "results": {
+    "linting": {
+      "status": "failed",
+      "details": "Check lint-results.json for specific issues"
+    },
+    "typecheck": {
+      "status": "success",
+      "details": "TypeScript compilation check"
+    },
+    "tests": {
+      "status": "failed",
+      "details": "Unit and integration test results"
+    },
+    "build": {
+      "status": "success",
+      "details": "Production build compilation"
+    }
+  },
+  "recommendations": {
+    "priority": "critical",
+    "actions_needed": [
+      "Fix linting issues",
+      
+      "Fix failing tests",
+      
+    ]
+  }
+}
